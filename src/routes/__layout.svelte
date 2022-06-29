@@ -1,5 +1,5 @@
 <script>
-    import App from './firebase';
+    import App from '$lib/addons/firebase.js';
     import { onMount } from 'svelte/internal';
     import { getAuth, onAuthStateChanged } from 'firebase/auth'
     import { goto } from '$app/navigation';

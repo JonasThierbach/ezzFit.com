@@ -8,10 +8,10 @@
 
 </script>
 
-<nav>
+<nav id="bottomNav">
     <div class="trophyIcon ico"><FaTrophy /></div>
     <div class="calenderIcon ico"><FaCalendarAlt /></div>
-    <div class="plusIcon "><FaPlus /></div>
+    <div class="plusIcon"><div class="wrapper"><FaPlus /></div></div>
     <div class="dumbellIcon ico"><FaDumbbell /></div>
     <div class="accountIcon ico"><MdAccountCircle /></div>
 </nav>

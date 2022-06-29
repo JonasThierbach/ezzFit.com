@@ -50,7 +50,7 @@
 </script>
 
 <img class="wave" src="/images/login/wave.png" alt="ezzFit">
-<div class="container">
+<div style="	background-color: white;" class="container">
     <Toast />
     <div class="img">
         <img src="/images/login/tracker.svg" alt="ezzFit">
