@@ -1,0 +1,22 @@
+nav {
+    position: fixed;
+    width: 100%;
+    bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .ico {
+        width: 30px;
+    }
+
+    .plusIcon {
+        color: white;
+        width: 50px;
+        border-radius: 50%;
+        transform: translateY(-10px) scale(110%);
+        padding: 12px 15px 8px 15px;
+        background: linear-gradient(#FF4D7D, #F30A49)
+    }
+}
+

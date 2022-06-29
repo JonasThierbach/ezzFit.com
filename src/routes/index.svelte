@@ -1,1 +1,7 @@
-<a href="/login">Click</a>
+<script>
+    import NavBar from '$lib/components/global/NavBar.svelte'
+
+</script>
+
+
+<NavBar />
