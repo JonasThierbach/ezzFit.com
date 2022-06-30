@@ -106,10 +106,14 @@
     position: absolute;
     left: 0;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+
     img {
-        overflow: hidden;
-        width: 100%;
+        margin-top: 3vh;
+        object-fit: cover;
+        max-width: 100%;
+        object-position: center;
         opacity: 15%;
     }
 }

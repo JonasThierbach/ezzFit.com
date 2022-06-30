@@ -9,6 +9,14 @@
     justify-content: space-around;
     align-items: center;
 
+    .backCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 20vh;
+    }
+
     p {
         margin: 5px 0px 0px 0px;
     }

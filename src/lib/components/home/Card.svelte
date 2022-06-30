@@ -9,8 +9,10 @@
 </script>
 
 <div class="customCard">
-    <img id="icon" src={icon} alt="CardIcon">
-    <p>{name}</p>
-    <h3>{data}</h3>
-    <img id="line" src={line} alt="CardLine">
+    <div class="backCard">
+        <img id="icon" src={icon} alt="CardIcon">
+        <p>{name}</p>
+        <h3>{data}</h3>
+        <img id="line" src={line} alt="CardLine">
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <script>
     import Card from'$lib/components/home/Card.svelte'
+    import Circle from'$lib/components/home/Circle.svelte'
     import '$lib/components/home/home.scss'
     import FaTrophy from 'svelte-icons/fa/FaTrophy.svelte'
     import FaCalendarAlt from 'svelte-icons/fa/FaCalendarAlt.svelte'
@@ -26,14 +27,15 @@
         <img src="/images/global/profile.jpg" alt="Avatar">
     </nav>
     <div id="imageContainer">
+        <Circle />
         <img src="/images/global/Wallpaper.png" alt="ezzFit" id="fitnessWallpaper">
     </div>
     <div class="background">
         <div class="cards" style="height: 50vh;">
-            <div style="z-index: 100;"><Card name={"sd"} data={2000} icon={"/images/home/Calories.svg"} line={"/images/home/CaloriesLine.svg"}/></div>
-            <div style="z-index: 100;"><Card name={"sd"} data={2000} icon={"/images/home/Calories.svg"} line={"/images/home/CaloriesLine.svg"}/></div>
-            <div style="z-index: 100;"><Card name={"sd"} data={2000} icon={"/images/home/Calories.svg"} line={"/images/home/CaloriesLine.svg"}/></div>
-            <div style="z-index: 100;"><Card name={"sd"} data={2000} icon={"/images/home/Calories.svg"} line={"/images/home/CaloriesLine.svg"}/></div>
+            <div style="z-index: 100;"><Card name={"Kalorien Tracker"} data={2000} icon={"/images/home/Calories.svg"} line={"/images/home/CaloriesLine.svg"}/></div>
+            <div style="z-index: 100;"><Card name={"Zucker Tracker"} data={2000} icon={"/images/home/Cycle.svg"} line={"/images/home/CycleLine.svg"}/></div>
+            <div style="z-index: 100;"><Card name={"Training Tracker"} data={2000} icon={"/images/home/Exercise.svg"} line={"/images/home/ExerciseLine.svg"}/></div>
+            <div style="z-index: 100;"><Card name={"Wasser Tracker"} data={2000} icon={"/images/home/Water.svg"} line={"/images/home/WaterLine.svg"}/></div>
         </div>
     </div>
     <nav id="bottomNav">
