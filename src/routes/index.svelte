@@ -29,7 +29,7 @@
         <img src="/images/global/Wallpaper.png" alt="ezzFit" id="fitnessWallpaper">
     </div>
     <div class="background">
-        <div class="cards">
+        <div class="cards" style="height: 50vh;">
             <div style="z-index: 100;"><Card name={"sd"} data={2000} icon={"/images/home/Calories.svg"} line={"/images/home/CaloriesLine.svg"}/></div>
             <div style="z-index: 100;"><Card name={"sd"} data={2000} icon={"/images/home/Calories.svg"} line={"/images/home/CaloriesLine.svg"}/></div>
             <div style="z-index: 100;"><Card name={"sd"} data={2000} icon={"/images/home/Calories.svg"} line={"/images/home/CaloriesLine.svg"}/></div>

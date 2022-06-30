@@ -110,7 +110,6 @@
     img {
         overflow: hidden;
         width: 100%;
-        transform: scale(110%) translateX(-20px) translateY(10px);
         opacity: 15%;
     }
 }
@@ -120,12 +119,15 @@
     width: 100%;
     bottom: 0;
     border-radius: 30px 30px 0px 0px;
-    height: 600px;
+    height: 60vh;
     background-color: #F3F3F3;
 
     .cards {
+        margin-top: 10px;
         display: grid;
         grid-template-columns: 50vw 50vw;
         grid-row: auto auto;
+        justify-items: center;
+        align-items: center;
     }
 }

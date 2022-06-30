@@ -1,6 +1,6 @@
 .customCard {
     background-color: white;
-    margin: 30px 0px 0px 20px;
+    padding: 0.5vh 0px 0.5vh 0px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 25px 50px -12px;
     width: calc(100vw - 58vw);
     border-radius: 14px;
@@ -8,21 +8,20 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 5px;
 
     p {
-        margin: 10px 0px 0px 0px;
+        margin: 5px 0px 0px 0px;
     }
     
     h3 {
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 5px 0px;
     }
 
     #icon {
-        margin-top: 4vh;
+        margin-top: 1.5vh;
     }
 
     #line {
-        margin-bottom: 4vh;
+        margin-bottom: 1.5vh;
     }
 }
